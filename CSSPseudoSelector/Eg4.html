@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        section, div, p{
+            border: 2px solid blue;
+            padding: 15px;
+            margin: 5px;
+        }
+        p::first-letter{
+            font-size: xx-large;
+        }
+        p::first-line{
+            background-color: lightseagreen;
+        }
+        p::before{
+            content: "*";
+        }
+        p::after{
+            font-size: xx-large;
+            content: "*";
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, a officiis ullam sit saepe in earum
+                molestiae illum rerum sapiente amet modi iste enim optio. Tenetur laborum et necessitatibus praesentium.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, a officiis ullam sit saepe in earum
+                molestiae illum rerum sapiente amet modi iste enim optio. Tenetur laborum et necessitatibus praesentium.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, a officiis ullam sit saepe in earum
+                molestiae illum rerum sapiente amet modi iste enim optio. Tenetur laborum et necessitatibus praesentium.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

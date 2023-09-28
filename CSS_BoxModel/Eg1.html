@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        section div{
+            border: 2px solid blue;
+            padding: 15px;
+            margin-bottom: 10px;
+
+            /* they convert the block level to inline */
+            float: left;
+            width: 16.5%;
+            box-sizing: border-box;
+            height: 80px;
+        }
+
+        #id2 div{
+            float: left;
+            height: 600px;
+            width: 49.5%;
+        }
+
+        #id3 div{
+            float: left;
+            width: 33.3%;
+            height: 400px;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+        <div>6</div>
+    </section>
+    <section id="id2">
+        <div>1</div>
+        <div>2</div>
+    </section>
+    <section id="id3">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </section>
+</body>
+</html>

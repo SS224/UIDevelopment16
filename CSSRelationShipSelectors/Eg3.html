@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <!-- adjacent sibling selector -->
+    <!-- <style>
+        section + div{
+            border: 2px solid blue;
+        } -->
+
+    <!-- general sibling selector -->
+    <style>
+        section ~ div {
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div>One</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+    </section>
+    <div>Six</div>
+    <div>Seven</div>
+    <div>Eight</div>
+    <div>Nine</div>
+</body>
+
+</html>
