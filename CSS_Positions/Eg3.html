@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <style>
+        div:nth-child(1) {
+            border: 2px solid crimson;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color:goldenrod;;
+        }
+
+        div:nth-child(2) {
+            border: 2px solid cornflowerblue;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color:olivedrab;
+            position: relative
+        }
+
+        div:nth-child(3) {
+            border: 2px solid chartreuse;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color: darkslategrey;
+        }
+
+        div:nth-child(4) {
+            border: 2px solid cyan;
+            margin-bottom: 5px;
+            padding: 20px;
+            background-color: firebrick;
+        }
+        .c1{
+            position: absolute;
+            top: 15px;
+            z-index: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div>One</div>
+    <div>
+        <div class="c1" style="background-color: cadetblue;">1.1</div>
+        <div class="c2">1.2</div>
+        <div class="c3">1.3</div>
+    </div>
+    <div>Three</div>
+    <div>Four</div>
+</body>
+
+</html>
