@@ -1,0 +1,24 @@
+section{
+   display: flex;
+}
+
+section, div{
+    background-color: royalblue;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+section div{
+    flex: 1;
+    margin: 10px;
+}
+
+select{
+    background-color: royalblue;
+    color: white;
+    font-size: large;
+}
+
+section div:first-child{
+    flex: 3;
+}

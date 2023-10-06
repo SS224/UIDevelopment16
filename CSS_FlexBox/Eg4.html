@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        .box div {
+            border: 2px solid blue;
+            margin: 5px;
+            padding: 10px;
+            float: left;
+            width: 24.3%;
+            box-sizing: border-box;
+        }
+
+        .flx,
+        div {
+            border: 2px solid blue;
+            margin: 5px;
+            padding: 10px;
+            display: flex;
+            flex: 1;
+        }
+        .nflx{
+            flex: 10;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="box">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <section class="flx">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+
+    <section class="flx">
+        <div class="nflx">
+            <div>1.1</div>
+            <div>1.2</div>
+        </div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+    </section>
+</body>
+
+</html>

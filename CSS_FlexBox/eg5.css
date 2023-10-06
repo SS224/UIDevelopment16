@@ -1,0 +1,30 @@
+footer *{
+    color: white;
+    font-size: large;
+}
+
+footer{
+    background: royalblue;
+}
+
+footer, div{
+
+    border-radius: 10px;
+    padding: 2px;
+}
+
+footer{
+    display: flex;
+}
+
+footer div{
+    flex: 1;
+    margin: 5px;
+}
+
+li{
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+}

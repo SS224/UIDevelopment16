@@ -1,0 +1,39 @@
+section, div{
+    /* border: 2px solid blue; */
+    margin: 5px;
+    padding: 10px;
+    display: flex;
+    flex: 1;
+}
+
+body{
+    background-color: #fff;
+    font-family: Arial;
+}
+
+.logo{
+    flex: 3;
+    color: #E9204F;
+    margin: 28px 0px 0px;
+    font-size: 50px;
+    line-height: 12px;
+    padding-left: 170px;
+
+}
+
+.services{
+    font-size: 18px;
+    color: #474545;
+    line-height: 78px;
+    font-weight: bold;
+}
+
+.button{
+    background-color: #E9204F;
+    color: #fff;
+    height: 35px;
+    border-radius: 30px;
+    padding: 5px 18px 5px;
+    font-weight: bold;
+    line-height: 32px;
+}
