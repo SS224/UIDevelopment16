@@ -1,0 +1,22 @@
+Types of Programming Languages
+------------------------------ 
+1.Low Level Programming Language (Machine Language) (0s and 1s)
+2.High Level Programming Language (Human Language) (Devlopers can understand the Syntax)
+3.Mid Level Programming Language (C and C++)
+
+Types of Translators
+-------------------- 
+1.Interpreter (Reads the code line by line)
+2.Complier (Reads all the code all at a time) (.class file)
+
+Diff b/w Scripting Programming Language, Functional Programming Language and Object Programming Language
+
+
+Scripting Programming Language (Interpreter)
+Functional Programming Language : Functional Based Applications
+Object Programming Language :  : Object Based Applications
+
+JavaScript:
+=========== 
+We can execute js Programms in Browser and in Server
+ 
