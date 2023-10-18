@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //creating an object in javascript
+        var menu = {
+            milk: 33,
+            curd: 45,
+            corn: 8,
+            apple: 10
+        }
+
+        //creating a function with arguments
+        function calaculateTotalCost(order, quantity) {
+
+            var price = menu[order]
+            console.log(price)
+
+            //if else
+            if (price != undefined) {
+                var total = price * quantity
+                return total
+            } else {
+                return "Invalid Item"
+            }
+        }
+        //Entry Point
+        var userOrder = prompt("Welcmoe to the Mart! What you would like to order")
+        var userQunatity = parseInt(prompt("How many quantites would you like to order"))
+
+        //call the function
+        var totalcost = calaculateTotalCost(userOrder.toLowerCase(), userQunatity)
+
+        //if else
+        if (typeof totalcost === 'number') {
+            console.log(typeof (totalcost))
+
+            //template strings
+            console.log(`Your order of ${userQunatity} ${userOrder} will cost ${totalcost.toFixed(2)}`)
+
+            document.write(`Your order of ${userQunatity} ${userOrder} will cost ${totalcost.toFixed(2)}`)
+        } else {
+            console.log(totalcost)
+        }
+    </script>
+</body>
+
+</html>
